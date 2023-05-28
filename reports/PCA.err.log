@@ -31,6 +31,7 @@ The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
 from google.colab import drive
-drive.mount ('/content/drive')
+drive.mount('/content/drive')
+%cd /content/drive/MyDrive/Pendata
 -------------------
 
