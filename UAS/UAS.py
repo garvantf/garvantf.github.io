@@ -42,7 +42,7 @@ with description:
     
 with preprocessing:
     st.write("# Rumus Normalisasi data")
-    st.image('rumus_normalisasi.png', use_column_width=False, width=250)
+    st.image('UAS/rumus_normalisasi.png', use_column_width=False, width=250)
     st.markdown("""
     Dimana :
     - X = data yang akan dinormalisasi atau data asli
