@@ -52,7 +52,7 @@ with preprocessing:
 
     st.write("# Normalisasi data iris")
     # Baca file CSV
-    data = pd.read_csv('Iris.csv')
+    data = pd.read_csv('UAS/Iris.csv')
 
     # Mengambil fitur-fitur yang ingin dinormalisasi
     fitur = data[['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']]
@@ -70,7 +70,7 @@ with preprocessing:
 with modeling:
     # Fungsi untuk membaca dataset iris
     def load_iris_dataset():
-        data = pd.read_csv('Iris.csv')
+        data = pd.read_csv('UAS/Iris.csv')
         return data
 
     # Fungsi untuk melakukan preprocessing data
@@ -143,7 +143,7 @@ with modeling:
                 
 with implementation:
     # Memuat dataset iris
-    data = pd.read_csv('Iris.csv')
+    data = pd.read_csv('UAS/Iris.csv')
 
     # Pisahkan fitur dan target
     X = data.iloc[:, :4].values  # Use all four features
