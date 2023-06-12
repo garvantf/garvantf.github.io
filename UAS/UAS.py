@@ -35,7 +35,7 @@ description, preprocessing, modeling, implementation = st.tabs(["Description", "
 with description:
     st.write("# Deskripsi Dataset ")
     st.write("#### Dataset yang digunakan adalah dataset Iris, dapat dilihat pada tabel dibawah ini:")
-    df = pd.read_csv('Iris.csv')
+    df = pd.read_csv('https://github.com/garvantf/garvantf.github.io/blob/c5816897d3a17de1f404e306f3de209c6993a220/UAS/Iris.csv')
     st.dataframe(df)
     st.write("###### Sumber Dataset : https://www.kaggle.com/datasets/uciml/iris")
     st.write(" Dataset Iris digunakan di R.A. Makalah klasik Fisher tahun 1936, The Use of Multiple Measurements in Taxonomic Problems, dan juga dapat ditemukan di UCI Machine Learning Repository.Ini mencakup tiga spesies iris dengan masing-masing 50 sampel serta beberapa sifat tentang setiap bunga. Satu spesies bunga dapat dipisahkan secara linear dari dua lainnya, tetapi dua lainnya tidak dapat dipisahkan secara linear satu sama lain.Kolom dalam kumpulan data ini adalah: Id,SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm,Species. ")
